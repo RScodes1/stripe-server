@@ -13,8 +13,8 @@ This project is a Node.js implementation for integrating Stripe Payment Gateway.
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/rajcodes1/stripe-server.git
-   cd stripe-server 
-
+   ```bash 
+   git clone https://github.com/rajcodes1/stripe-server.git 
+   cd stripe-server ```
+2. 
   
