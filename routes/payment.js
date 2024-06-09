@@ -36,7 +36,7 @@ paymentRoute.post('/create_refund/:id',async(req,res)=>{
     }
 })
 
-paymentRoute.get('./get_intents',async(req,res)=>{
+paymentRoute.get('/get_intents',async(req,res)=>{
     try {
         const paymentIntents = await stripe.paymentIntents.list({ limit: 10 });
         res.status(200).send({ paymentIntents });
